@@ -57,7 +57,7 @@ summary_type = st.selectbox(
 # Dropdown for model type
 model_type = st.selectbox(
     "Select Model Type",
-    ("Gemma-7b-It", "llama3-70b-8192", "Mixtral-8x7b-32768")
+    ("Gemma-7b-It", "llama3-70b-8192", "gpt-4-turbo")
 )
 
 # Initialize the selected model
@@ -74,4 +74,3 @@ if st.button("Generate Summary"):
 
 # Add a footer
 st.markdown("---")
-st.markdown("Made by Arvin")
