@@ -90,4 +90,4 @@ if st.button("Generate Summary"):
  
 # Footer
 st.markdown("---")
-st.markdown("🚀 Made by **Sakshi Ambavade**")
+st.markdown("🚀 Made by **Rutik Kumbhar**")
